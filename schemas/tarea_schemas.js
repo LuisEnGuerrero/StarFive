@@ -9,7 +9,7 @@ const esquema = new Schema({
     fecha_entrega: {type: Date, required: false},
     fecha_vencimiento: Date,
     materia:
-        { String: String }
+        { _id: String }
 });
 
 module.exports = mongoose.model('Tarea', esquema);

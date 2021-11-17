@@ -6,9 +6,9 @@ const esquema = new Schema({
     apellidos: String,
     correo: String,
     telefono: String,
-    institucion: { String: String },
-    materia: { String: String },
-    Grupos: { String: String }
+    institucion: { _id: String },
+    materia: { _id: String },
+    Grupos: { _id: String }
 });
 
 module.exports = mongoose.model('Profesor', esquema);
