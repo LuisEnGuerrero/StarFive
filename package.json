@@ -4,6 +4,7 @@
   "description": "Proyecto Api para Sitio educativo StarSix",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "starsix": "nodemon index.js"
   },
   "author": "Luis Enrique Guerrero",
